@@ -6,5 +6,220 @@
 --ink:#302820;
 --muted:#786f66;
 --cream:#f7f1e9;
---line:#e9dfd3
+--line:#e9dfd3;
+
+--font-body:'Be Vietnam Pro',Arial,sans-serif;
+--font-heading:'Be Vietnam Pro',Arial,sans-serif;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+body{
+    margin:0;
+    font-family:var(--font-body);
+    color:var(--ink);background:#fff
+}
+
+a{
+    color:inherit;
+    text-decoration:none
+}
+
+.site-header{
+    min-height:78px;padding:16px max(6vw,24px);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid var(--line);gap:20px
+}
+
+.brand{display:flex;
+    align-items:center;
+    gap:10px;font-size:18px;
+    font-weight:600;color:var(--brown);
+    letter-spacing:.04em
+}
+
+.brand-mark{
+    display:grid;
+    place-items:center;
+    width:38px;
+    height:38px;
+    background:var(--green);
+    color:white;
+    border-radius:50%;
+    font-family:Georgia,serif;
+    font-size:22px
+}
+ .site-header nav{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    font-size:13px;
+    font-weight:600
+}
+
+.site-header nav a:hover{
+    color:var(--orange)
+}
+
+.nav-cta{
+    padding:11px 18px;
+    border:1px solid var(--green);
+    border-radius:99px;
+    color:var(--green)
+}
+
+.hero{
+    min-height:570px;
+    padding:80px max(9vw,28px);
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    align-items:center;
+    gap:50px;
+    background:radial-gradient(circle at 85% 20%,#eee5d8,transparent 34%),linear-gradient(120deg,#fff 55%,#faf6f0)
+}
+
+.eyebrow{
+    font-size:11px;
+    font-weight:800;
+    letter-spacing:.18em;
+    color:var(--orange)
+}
+
+h1{
+    font-size:clamp(38px,5vw,64px);
+    line-height:1.13;
+    letter-spacing:-.045em;
+    color:var(--brown);
+    margin:18px 0
+}
+
+h1 span{
+    color:var(--green)
+}
+
+.lead,.section-text{
+    font-size:15px;
+    line-height:1.9;
+    color:var(--muted);
+    max-width:540px
+}
+
+.button{
+    display:inline-flex;
+    gap:22px;
+    align-items:center;
+    background:var(--green);
+    color:#fff;
+    padding:15px 22px;
+    border-radius:8px;
+    font-weight:700;
+    font-size:13px;
+    margin-top:20px;
+    box-shadow:0 10px 24px #66745a30
+}
+
+.button:hover{
+    transform: translateY(-2px);
+}
+
+.hero-art{
+    min-height:330px;
+    display:grid;
+    place-items:center;
+    position:relative
+}
+
+.coffee-illustration{
+    width:330px;
+    height:280px;
+    position:relative;
+    background:#eee4d8;
+    border-radius:48% 52% 42% 58%;
+    display:grid;
+    place-items:center
+}
+
+.cup{
+    position:relative;
+    width:170px;height:125px;
+    background:#fffaf2;
+    border-radius:12px 12px 65px 65px;
+    box-shadow:0 18px 25px #49332620;
+    z-index:2
+}
+
+.coffee{
+    height:18px;
+    background:#69442d;
+    border-radius:50%;
+    margin:8px
+}
+
+.handle{
+    position:absolute;
+    width:55px;
+    height:60px;
+    border:13px solid #fffaf2;
+    border-left:0;
+    border-radius:0 50% 50% 0;
+    right:-42px;
+    top:27px
+}
+
+.steam{
+    position:absolute;
+    width:18px;
+    height:55px;
+    border-left:4px solid #bd8050;
+    border-radius:50%;
+    top:32px;
+    transform:rotate(12deg)
+}
+
+.s1{
+    left:125px
+}
+
+.s2{
+    left:180px;
+    top:15px
+}
+
+.bean{
+    position:absolute;
+    color:#8a6040;
+    font-size:38px
+}
+
+.b1{
+    left:38px;
+    bottom:45px;
+    transform:rotate(25deg)
+}
+
+.b2{
+    right:35px;
+    top:60px
+}
+
+.b3{
+    right:62px;
+    bottom:25px
+}
+
+.float-tag{
+    position:absolute;
+    bottom:10px;
+    right:-10px;
+    background:white;
+    padding:14px 18px;
+    border-radius:8px;
+    box-shadow:0 8px 30px #49332618;
+    font-size:12px;
+    font-weight:700;
+    color:var(--brown)
 }
