@@ -1,3 +1,6 @@
+## V3
+- Cập nhật CSS cho story, menu và space
+
 ## V2
 - Chỉnh sửa cách sắp xếp các dòng code của class "hero-art"
 - Cập nhật CSS cho thanh menu và homepage
