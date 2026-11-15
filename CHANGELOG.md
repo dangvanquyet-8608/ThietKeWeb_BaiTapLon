@@ -1,5 +1,8 @@
+## V6
+- Sửa email bị lặp ".com"
+
 ## V5
--Chỉnh sửa lỗi tràn viền của homepages
+- Chỉnh sửa lỗi tràn viền của homepages
 
 ## V4
 - Cập nhật CSS cho phần liên hệ
