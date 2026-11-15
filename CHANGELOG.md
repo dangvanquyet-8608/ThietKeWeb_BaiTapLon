@@ -1,3 +1,9 @@
+## V5
+-Chỉnh sửa lỗi tràn viền của homepages
+
+## V4
+- Cập nhật CSS cho phần liên hệ
+
 ## V3
 - Cập nhật CSS cho story, menu và space
 
