@@ -53,7 +53,7 @@ https://dangvanquyet-8608.github.io/ThietKeWeb_BaiTapLon/
 - Sử dụng các hiệu ứng hover và thuộc tính bo góc, đổ bóng để tăng tính trực quan.
 
 ## 5. Cấu trúc thư mục dự án
-
+```
 TEYUQ-Coffee/
 │
 ├── css/
@@ -67,6 +67,7 @@ TEYUQ-Coffee/
 ├── index.html
 ├── README.md
 └── RELEASE_NOTE.md
+```
 
 **Chức năng từng tệp:**
 - `index.html`: Chứa cấu trúc và nội dung chính của website
